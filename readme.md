@@ -1,4 +1,5 @@
-//  Add tsconfig => npx --init
+### Add tsconfig 
+- npx --init
 
 ```
 tsconfig.json
@@ -10,3 +11,5 @@ tsconfig.json
   }
 }
 ```
+
+## Node v22.11.0
