@@ -1,6 +1,6 @@
 import { forLoopSalary, forLoopDepartment, filterResult, mapNewResult, findMaxSalary, avgYearsOfService } from "./Exercise1"
 import { Customer, Item, Address, processOrder } from "./Exercise2"
-import { UserInput, registerUser } from "./Exercise3"
+import { registerUser } from "./Exercise3"
 
 export interface Employees {
     name: String,
