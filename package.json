@@ -1,13 +1,17 @@
 {
   "scripts": {
+    "tsconfig": "npx tsc --init",
     "build": "npx tsc index.ts",
     "dev": "npm run build && node index.js",
     "start": "npx ts-node index.ts",
-    "tsconfig": "npx tsc --init"
+    "w1": "npx ts-node ./src/w1/index.ts"
   },
   "devDependencies": {
     "@types/lodash": "^4.17.20",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }
