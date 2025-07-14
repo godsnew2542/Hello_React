@@ -1,5 +1,5 @@
 ### Add tsconfig 
-- npx --init
+- npx --init Or npx tsc --init
 
 ```
 tsconfig.json
